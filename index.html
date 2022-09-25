@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 16</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aboreto&family=Julius+Sans+One&family=Lora&family=Montserrat:wght@200;300;400&family=Nanum+Gothic&family=Nanum+Myeongjo&family=Noto+Sans+JP:wght@700&family=Noto+Serif+HK:wght@200&family=Playfair+Display&family=Poppins:wght@400;500&family=Quicksand:wght@300;400&family=Raleway:wght@100;200;400&family=Roboto+Slab:wght@300&family=Rozha+One&family=Urbanist:wght@200;300;400&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <center>
+
+
+            <h1>Image Filter Crown</h1>
+            <p>You have a crown filter added with a background color! You can use hex codes too, I recoomend using
+                #A39789</p>
+            <hr>
+
+
+            <h4>Filter Colour: </h4>
+            <input class="form-control" id="colour_name" placeholder="Enter Filter Color">
+            <br>
+            <!-- <button class="btn btn-info">Realtime Filter</button>
+    <button onclick="filter_tint()" class="btn btn-danger">Appply Filter</button>
+    <button class="btn btn-success" onclick="take_snapshot()">Take Snapshot</button>
+     -->
+            <button class="btn btn-primary" onclick="filter_tint()">Appply Filter</button>
+            <button onclick="take_snapshot()" class="btn btn-danger">Take Snapshot</button>
+            <button class="btn btn-warning" onclick="removefiltertint()">Remove Filter</button>
+
+
+        </center>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
